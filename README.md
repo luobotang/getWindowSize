@@ -17,3 +17,7 @@ var windowSize = getWindowSize()
 windowSize.width
 windowSize.height
 ```
+
+## compatibility
+
+Tested OK on IE7+, Chrome.
