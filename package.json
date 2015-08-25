@@ -1,0 +1,23 @@
+{
+  "name": "get-window-size",
+  "version": "0.1.0",
+  "description": "get window size",
+  "main": "index.js",
+  "scripts": {
+    "test": "start test.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luobotang/getWindowSize.git"
+  },
+  "keywords": [
+    "window",
+    "size"
+  ],
+  "author": "luobotang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luobotang/getWindowSize/issues"
+  },
+  "homepage": "https://github.com/luobotang/getWindowSize#readme"
+}

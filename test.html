@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>getWindowSize</title>
+	<style>
+	* { margin: 0; padding: 0 }
+	</style>
+</head>
+<body onload="getSize()" onresize="getSize()">
+	<p>window size:</p>
+	<p id="width">--</p>
+	<p id="height">--</p>
+	<script src="index.js"></script>
+	<script>
+		function getSize() {
+			var windowSize = getWindowSize()
+			document.getElementById('width').innerHTML = windowSize.width
+			document.getElementById('height').innerHTML = windowSize.height
+		}
+	</script>
+</body>
+</html>
